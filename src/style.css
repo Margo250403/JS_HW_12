@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap");
+body,html{
+    font-family: "Roboto Slab", Arial, sans-serif;
+}
+.user-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-block{
+    margin: 20px 20px;
+    width: 340px; 
+    background: antiquewhite;
+    padding: 5px 10px 5px 10px; 
+    border: solid 3px wheat; 
+    box-shadow: 7px 5px 5px wheat;
+}
+.user-block ul{
+    list-style: none;
+}
+.user-block li{
+    margin: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.3;
+    list-style: none;
+}
